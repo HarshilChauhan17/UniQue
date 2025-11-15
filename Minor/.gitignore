@@ -28,10 +28,10 @@ wheels/
 .env.local
 
 # Data directories
-app/data/uploads/*
-app/data/chroma/*
-app/data/*.db
-!app/data/.gitkeep
+data/uploads/*
+data/chroma/*
+data/college_ai.db
+!data/.gitkeep
 
 # IDE
 .vscode/
