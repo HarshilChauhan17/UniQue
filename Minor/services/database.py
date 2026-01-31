@@ -252,7 +252,7 @@ class Database:
     
     def delete_document(self, doc_id: str):
         """Delete document record"""
-        conn = self.get_connection()  # ← FIXED (was self.get_.get_connection())
+        conn = self.get_connection()
         cursor = conn.cursor()
         cursor.execute('DELETE FROM documents WHERE id = ?', (doc_id,))
         conn.commit()
