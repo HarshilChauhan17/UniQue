@@ -1,33 +1,33 @@
 
 # Core Streamlit
-streamlit==1.38.0
-streamlit-option-menu==0.3.13
+streamlit
+streamlit-option-menu
 
 # LangChain & AI
-langchain==0.3.0
-langchain-community==0.3.0
-langchain-huggingface==0.1.0
-langchain-text-splitters==0.3.0
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
 
 # Embeddings & Vector Store
-sentence-transformers==2.6.0
-chromadb==0.5.0
-huggingface-hub==0.24.0
+sentence-transformers
+chromadb
+huggingface-hub
 
 # PDF Processing
-PyPDF2==3.0.1
-pypdf==3.17.0
+PyPDF2
+pypdf
 
 # Database & Environment
-python-dotenv==1.0.0
+python-dotenv
 
 # Authentication & Security
-bcrypt==4.1.1
+bcrypt
 
 # Utilities
-requests==2.31.0
-pandas==2.1.4
-plotly==5.18.0
+requests
+pandas
+plotly
 
 # Core dependencies
 pydantic>=2.7.4
